@@ -113,30 +113,21 @@ The dashboard includes 4 interactive tabs:
 <br>
 
 ## 📄 Documentation 
-dashboard.R — Full R Shiny code for the interactive dashboard
-
-heart_failure.csv — Cleaned dataset
-
-screenshots/ — Dashboard preview images
-
-report.pdf — Technical documentation and result analysis
+This repository includes :
+- R script - dashboard file
+- Technical Report with implementation details
+- Images of the Dashboard (Page 1 - 7)
 
 <br>
 
 ## 📚 References
-Chicco, D., & Jurman, G. (2020). Machine learning can predict survival of patients with heart failure
+- UCI Machinie Learning Repository : <a href="https://archive.ics.uci.edu/dataset/519/heart+failure+clinical+records"> UCI Heart Failure Clinical Records Dataset </a> 
 
-UCI Machine Learning Repository:
+- Dashboard Inspirations and tutorials :
+  - <a href="https://youtu.be/C4N3_XJJ-jU?si=_3Hmz5aJU0rusLyi"> Video Tutorial 1
+  - <a href="https://youtu.be/XycruVLySDg?si=0yOIjnhGM0Ep09hs"> Video Tutorial 2
+  - <a href="https://youtu.be/-lN_JNvFSyE?si=2RkaMGSF51yqd8A-"> Video Tutorial 3
+  - <a href="https://youtu.be/_a4S4tq62OE?si=38VlveNvFaYuU1Nn"> Video Tutorial 4 
+  - <a href="https://youtu.be/WmofiOklux8?si=rba_YXvuIVvaef1a"> Video Tutorial 5  
 
-Heart Failure Dataset
-
-Dashboard inspiration and tutorials:
-
-https://youtu.be/-lN_JNvFSyE
-
-https://youtu.be/_a4S4tq62OE
-
-https://youtu.be/WmofiOklux8
-
-💬 Contact
-Feel free to raise issues, fork, or contribute to this project. For questions, reach out via GitHub or email.
+- Chicco, D. and Jurman, G. (2020) “Machine learning can predict survival of patients with heart failure from serum creatinine and ejection fraction alone,” BMC Medical Informatics and Decision Making, 20(1). Available at: https://doi.org/10.1186/s12911-020-1023-5.
