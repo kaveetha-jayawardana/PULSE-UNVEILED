@@ -1,4 +1,4 @@
-<h1 align="center"><b>PULSE-UNVEILED DASHBOARD</b></h1> 
+<h1 align="center"><b>PULSE-UNVEILED</b></h1> 
 <h3 align="center"><i>A Plotly-powered R Dashboard using Logistic Regression to visualize and analyze Heart Failure clinical records for predictions and insights</i></h3> 
 <div align="center"> 
   <img height="180" src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3ejE3ODVlNmRyZnc2M3loaHRvdTJqeXZubGo3Z2U0Z2ptajBibGdhaSZlcD12MV9zdGlja2Vyc19yZWxhdGVkJmN0PXM/irOvD4JoFVGdmgHXUB/giphy.gif" />
