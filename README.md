@@ -15,17 +15,21 @@ Pulse Unveiled is an interactive Plotly dashboard built in R that visualizes and
 
 ⚠️ Note: This project is open-source. Contributions and suggestions are welcome. Feel free to fork and adapt it for your own use.
 
+<br>
+
 ### 2. Dataset Information
 - Source: <a href="https://archive.ics.uci.edu/dataset/519/heart+failure+clinical+records"> UCI Heart Failure Clinical Records Dataset</a>
 - Characteristics 
    - Records: 299 patient records
    - Attributes (13): Age, Gender, Anaemia, Diabetes, Ejection Fraction, Serum Creatinine, Smoking, Time (Follow-up), and more
 
+<br>
+
 ### 3. Data Preparation & Methodology
 - <b> Data Cleaning & Preprocessing :</b> The Heart Failure Clinical Records dataset was first loaded into R and preprocessed to ensure suitability for analysis.
     - Verified the absence of missing values
     - Converted target variable (DEATH_EVENT) into a factor for classification
-    - Conducted exploratory data analysis (EDA) using summary(), str(), and dim() functions
+    - Conducted exploratory data analysis (EDA) using `summary()`, `str()`, and `dim()` functions
     - Utilized correlation matrix and visualization techniques to understand feature relationships
 
 - <b> Model Used :</b> Logistic regression was selected as the core data mining technique due to its ability to handle **binary classification** problems.
@@ -51,87 +55,64 @@ Pulse Unveiled is an interactive Plotly dashboard built in R that visualizes and
   - UI design implemented with `dashboardHeader()`, `sidebarMenu()` and custom backgrounds
   - All plots rendered using R code for enhanced interactivity and real-time data exploration
 
+<br>
+
 ### 4. Dashboard Overview
-The dashboard includes 4 interactive pages:
+The dashboard includes 4 interactive tabs:
 
-📌 **Page 1 : Overview**
-Dataset description and project summary.
+ #### 📌 **Overview :** Dataset description and project summary.
 <div align="center">
   <img src = "Dashboard - Page 1.png" />
 </div>
 <br>
-
-📌 **Page 2 : Visualizations**
-Scatter plots, boxplots, bar charts, pie charts, and 3D plots visualizing:
 <div align="center">
-  <img src = "Dashboard - Page 1.png" />
+  <img src = "Dashboard - Page 2.png" />
 </div>
 <br>
 
-📌 **Page 3 : Logistic Regression**
-Logistic regression curve with predictions
+ #### 📌 **Visualizations :** Scatter plots, boxplots, bar charts, pie charts, and 3D plots visualizing the data is depicted.
 <div align="center">
-  <img src = "Dashboard - Page 1.png" />
+  <img src = "Dashboard - Page 3.png" />
+</div>
+<br>
+<div align="center">
+  <img src = "Dashboard - Page 4.png" />
 </div>
 <br>
 
-Key predictors: Age, Serum Creatinine, Ejection Fraction
-
-📌 **Page 4 : Summary**
-Highlighted insights and conclusions
+ #### 📌 **Logistic Regression :** Logistic regression curve with predictions
 <div align="center">
-  <img src = "Dashboard - Page 1.png" />
+  <img src = "Dashboard - Page 5.png" />
+</div>
+<br>
+<div align="center">
+  <img src = "Dashboard - Page 6.png" />
 </div>
 <br>
 
-🔍 5. Key Insights
-Survival Risk Factors:
+ #### 📌 **Summary :** Highlighted insights and conclusions
+<div align="center">
+  <img src = "Dashboard - Page 7.png" />
+</div>
+<br>
 
-High serum creatinine and low ejection fraction strongly correlate with mortality.
+### 5. Key Insights
+- **Survival Risk Factors:**
+  - High serum creatinine and low ejection fraction strongly correlate with mortality.
+  - Smokers showed a higher death rate than non-smokers.
+  - Males had a higher representation in the dataset (64.9%).
 
-Smokers showed a higher death rate than non-smokers.
+- **Model Accuracy:**
+  - Training Accuracy: 85.65%
+  - Testing Accuracy: 77.78%
 
-Males had a higher representation in the dataset (64.9%).
+- **Visual Trends:**
+  - Males tend to have higher platelet counts.
+  - Most deaths occurred among patients with high serum creatinine.
 
-Model Accuracy:
+<br>
 
-Training Accuracy: 85.65%
-
-Testing Accuracy: 77.78%
-
-Visual Trends:
-
-Males tend to have higher platelet counts.
-
-Most deaths occurred among patients with high serum creatinine.
-
-🔮 6. Future Scope
-Deploy the dashboard online using ShinyApps.io
-
-Add ROC and AUC analysis for model validation
-
-Integrate patient-level prediction functionality
-
-Include real-time clinical data via API
-
-🛠️ 7. Installation & Usage
-Clone this repo
-
-bash
-Copy
-Edit
-git clone https://github.com/your-username/heart-failure-dashboard.git
-cd heart-failure-dashboard
-Install Required Packages in R
-
-R
-Copy
-Edit
-install.packages(c("shiny", "plotly", "tidyverse", "corrplot", "RColorBrewer", "GGally", "epitools"))
-Run the Dashboard
-Open dashboard.R in RStudio and click Run App.
-
-📄 8. Repository Includes
+## 📄 Documentation 
 dashboard.R — Full R Shiny code for the interactive dashboard
 
 heart_failure.csv — Cleaned dataset
@@ -140,7 +121,9 @@ screenshots/ — Dashboard preview images
 
 report.pdf — Technical documentation and result analysis
 
-📚 9. References
+<br>
+
+## 📚 References
 Chicco, D., & Jurman, G. (2020). Machine learning can predict survival of patients with heart failure
 
 UCI Machine Learning Repository:
