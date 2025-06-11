@@ -114,7 +114,7 @@ The dashboard includes 4 interactive tabs:
 
 ## 📄 Documentation 
 This repository includes :
-- <a href = "R script - Dashboard"> Dashboard - R script file
+- <a href = "R script - Dashboard.R"> Dashboard - R script file
 - <a href = "Report - PULSE UNVEILED.pdf"> Technical Report with implementation details
 - Images of the Dashboard (Page 1 - 7)
 
