@@ -65,12 +65,12 @@ The dashboard includes 4 interactive tabs:
   <img src = "Dashboard - Page 1.png" />
 </div>
 <br>
+
+ #### 📌 **Visualizations :** Scatter plots, boxplots, bar charts, pie charts, and 3D plots visualizing the data is depicted.
 <div align="center">
   <img src = "Dashboard - Page 2.png" />
 </div>
 <br>
-
- #### 📌 **Visualizations :** Scatter plots, boxplots, bar charts, pie charts, and 3D plots visualizing the data is depicted.
 <div align="center">
   <img src = "Dashboard - Page 3.png" />
 </div>
